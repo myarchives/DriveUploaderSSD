@@ -1,4 +1,4 @@
-# GoogleDrive OATH2.0 APP
+# DriveUploader OATH2.0 APP
 
 ## Installation
 
@@ -11,32 +11,35 @@ $ npm install
 ### Developmnet Environment
 
 ```bash
-$ npm run dev
-# Development stage ( This will nodemon internally ).
+$ npm start
+# run the application stage
 
-$ npm run prod
-# Production version ( This command will run node index.js internally to perform well in production environment ).
+$ npm dev
+# run the application with nodeman for development purposes
 
 ```
 
 ### Folder Structure
+
 ```
 .
-    ├── configs              # Configuration files 
-    │   ├── keys.js          
-    │   ├── passport.js      
+    ├── configs              # Configuration files
+    │   ├── keys.js
+    │   ├── passport.js
     ├── public               # FrontEnd Libraries
     │   ├── materializ.css   # materializ lib
     ├── routes               # Page routes
-    │   ├── auth.js          
-    │   ├── home.js          
+    │   ├── auth.js
+    │   ├── home.js
     ├── views                # Views
-    │   ├── dashboard.html   
-    │   ├── home.html       
+    │   ├── dashboard.html
+    │   ├── home.html
     ├── index.js
     ├── IT16060722.xml       # submission details
     ├── package.json
     └── README.md
 ```
+
 ### Author
-* Ravindu Landekumbura
+
+- Ravindu Landekumbura (ravindulandekumbura14@gmail.com)
